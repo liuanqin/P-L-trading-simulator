@@ -14,7 +14,7 @@ public class SellStock extends TradeStock {
 	public void updatePNL() {
 		if(pnl.containsKey(symbolName)){
 			double[] temp = pnl.get(symbolName);
-			temp[0] -= fillSize; // buy more shares
+			temp[0] -= fillSize; // sell more shares
 			temp[1] = fillPrice; // update current stock price
 			temp[2] +=fillPrice*fillSize; // update total money spent
 			temp[3] = temp[0]*temp[1] +temp[2]; //update pnl 

@@ -29,5 +29,9 @@ The output format is as belows. The space separated format is organized as follo
 * Signed Size Owned  
 * Mark to Market P&L
 
+Positive signed size owned means the customer possess those much share, while negative means customer currently has sold/owed that much shares.
+
+Mark to market P&L: positive means profits while negative means loss.
+
 ## Author
 Anqing Liu
